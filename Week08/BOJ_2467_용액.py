@@ -1,5 +1,3 @@
-import sys
-
 N = int(input())
 arr = list(map(int, input().split()))
 
@@ -28,3 +26,4 @@ while start < end:  # start 와 end 는 만날 수 없음.
         start += 1
 
 print(arr[ans_start], arr[ans_end])
+
