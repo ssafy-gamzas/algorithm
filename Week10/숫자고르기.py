@@ -26,6 +26,10 @@ for i in range(1,n+1):
       dic[x]=1
       q.append(x)
   else:
+    if i not in dic: #현재 바라보는 인덱스에서 사이클 만들기에 실패하면 영향을 제거한다
+      dic[li[i]]-=1
+      if dic[li[i]]==0:
+        continue
     ans|=dic.keys()
 print(len(ans))
 for x in sorted(ans):
