@@ -1,4 +1,4 @@
-package 틱택토;
+package week1.틱택토;
 
 import java.util.*;
 import java.io.*;

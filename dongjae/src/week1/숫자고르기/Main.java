@@ -1,4 +1,4 @@
-package 숫자고르기;
+package week1.숫자고르기;
 
 import java.io.*;
 import java.util.*;

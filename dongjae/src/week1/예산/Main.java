@@ -1,4 +1,4 @@
-package 예산;
+package week1.예산;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

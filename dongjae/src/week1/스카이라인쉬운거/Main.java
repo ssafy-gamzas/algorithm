@@ -1,4 +1,4 @@
-package 스카이라인쉬운거;
+package week1.스카이라인쉬운거;
 
 import java.io.*;
 import java.util.*;

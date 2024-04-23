@@ -1,4 +1,4 @@
-package 영단어암기는어려워;
+package week1.영단어암기는어려워;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
