@@ -22,12 +22,10 @@ public class Main {
 
 		while (end < N) {
 			if (!set.contains(arr[end])) {
-				set.add(arr[end]);
-				end++;
+				set.add(arr[end++]);
 				count += (end - start);
 			} else {
-				set.remove(arr[start]);
-				start++;
+				set.remove(arr[start++]);
 			}
 		}
 
